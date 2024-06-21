@@ -1,0 +1,30 @@
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  gap: 10px;
+
+  .slideContainer {
+    width: 1400px;
+    position: relative;
+  }
+
+  button {
+    display: flex;
+    background: transparent;
+    border: none;
+    align-items: center;
+    padding: 5px;
+    font-size: 30px;
+    transition: all ease-in-out 0.4s;
+    color: lightgrey;
+    height: 300px;
+
+    &:hover {
+      background-color: lightgray;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}
